@@ -3,7 +3,7 @@ services:
   web:
     container_name: nginx
     image: nginx-1.22-alpine-app:0.1
-    build: build/Dockerfile
+    build: build
     stdin_open: true
     ports:
       - 9889:80
